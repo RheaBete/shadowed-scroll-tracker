@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        crimson: {
+          DEFAULT: "hsl(var(--crimson))",
+          glow: "hsl(var(--crimson-glow))",
+        },
+        violet: {
+          DEFAULT: "hsl(var(--violet))",
+          glow: "hsl(var(--violet-glow))",
+        },
+        silver: {
+          DEFAULT: "hsl(var(--silver))",
+          glow: "hsl(var(--silver-glow))",
+        },
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
